@@ -1,0 +1,32 @@
+
+body{
+    background-image: url(https://www.casablancacity.ma/couvertures/article/DcBnZwmbAZbOlJB3r5Dhca8Cm9zugQT4xa4leAhk.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.description{
+    color:blanchedalmond;
+    background-color:  rgb(0, 251, 255, 0.5);
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    gap : 20px;
+}
