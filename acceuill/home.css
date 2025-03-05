@@ -1,9 +1,12 @@
 
 body{
-    background-image: url(https://www.casablancacity.ma/couvertures/article/DcBnZwmbAZbOlJB3r5Dhca8Cm9zugQT4xa4leAhk.jpeg);
-    background-size: cover;
+    background-image: url(https://www.citedelarchitecture.fr/sites/default/files/styles/desktop_contenus_slider_1920x713/public/images/2017-02/049_biblio_cite_archi_pleine.jpg?h=f2ee3db3&itok=X7ZJ7zaD) ;
     background-repeat: no-repeat;
+    background-size: contain;
+
+    margin: 0;
 }
+
 
 h1{
     color: white;
@@ -14,8 +17,8 @@ h1{
 }
 
 .description{
-    color:blanchedalmond;
-    background-color:  rgb(0, 251, 255, 0.5);
+    color:rgb(0, 0, 0);
+    background-color:  rgba(125, 232, 233, 0.5);
     width: 50%;
     margin: auto;
     padding: 20px;
@@ -24,9 +27,36 @@ h1{
 
 nav {
     display: flex;
-    justify-content:space-between;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    gap : 20px;
+    justify-content: center;
+    gap: 80px;
+    background-color: rgb(254, 254, 254);
+    padding: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #f2f2f2;
+    padding-top: 100%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
