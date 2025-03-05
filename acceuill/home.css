@@ -3,7 +3,6 @@ body{
     background-image: url(https://www.citedelarchitecture.fr/sites/default/files/styles/desktop_contenus_slider_1920x713/public/images/2017-02/049_biblio_cite_archi_pleine.jpg?h=f2ee3db3&itok=X7ZJ7zaD) ;
     background-repeat: no-repeat;
     background-size: contain;
-
     margin: 0;
 }
 
@@ -18,11 +17,12 @@ h1{
 
 .description{
     color:rgb(0, 0, 0);
-    background-color:  rgba(125, 232, 233, 0.5);
+    background-color:  rgba(255, 255, 255, 0.682);
     width: 50%;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
+    border: dotted 2px black;
 }
 
 nav {
@@ -31,6 +31,7 @@ nav {
     gap: 80px;
     background-color: rgb(254, 254, 254);
     padding: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 .icon {
