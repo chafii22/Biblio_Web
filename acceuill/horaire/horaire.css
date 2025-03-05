@@ -1,0 +1,41 @@
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: rgb(254, 254, 254);
+    padding: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.groupe-1 { background-color: #ff6b6b; color: white; }
+.groupe-2 { background-color: #feca57; }
+.groupe-4 { background-color: #feca57; }
+.groupe-5 { background-color: #ff6b6b; color: white; }
+.groupe-6 { background-color: #4cd137; color: white; }
+.pause-dejeuner { background-color: #4287f5; color: white; }
+.projection-film { background-color: #4cd137; color: white; }
+.apres-midi-enfant { background-color: #4cd137; color: white; }
+.inventaire { background-color: #4cd137; color: white; }
+.ferie { background-color: #9c88ff; color: white; }
