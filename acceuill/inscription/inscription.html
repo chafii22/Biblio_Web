@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="inscription.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BIBLIOTHEQUE ATLAS</title>
+    </head>
+    <body>
+        <nav>
+            <div>
+                <a href="../home.html"><img src="../../assets/house-solid.svg" alt="home" class="home icon" ></a>
+            </div>
+            <div>
+                <a href="../livre/livre.html" ><img src="../../assets/book-solid.svg" alt="books" class="books icon" ></a>
+            </div>
+            <div>
+                <a href="../horaire/horaire.html"><img src="../../assets/business-time-solid.svg" alt="time" class="time icon"></a>
+            </div>
+            <div>
+                <a href="../abonement/abonement.html"><img src="../../assets/money-check-dollar-solid.svg" alt="pricing" class="pricing icon"></a>
+            </div>
+            <div>
+                <a href="../inscription/inscription.html"><img src="../../assets/user-solid.svg" alt="inscription" class="inscription icon"></a>
+            </div>
+        </nav>
+            <div class="form-container">
+                <div class="form-header">
+                    <h2>Merci de bien vouloir remplir ce Formulaire</h2>
+                </div>
+                <form>
+                    <h3>Informations personnelles</h3>
+                    <div class="form-group">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" class="form-control" placeholder="Votre nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="ville">Ville :</label>
+                        <input type="text" id="ville" name="ville" class="form-control" placeholder="Ville">
+                    </div>
+                    <div class="form-group">
+                        <label>Sexe :</label>
+                        <div class="radio-group">
+                            <label>
+                                <input type="radio" name="sexe" value="masculin"> Masculin
+                            </label>
+                            <label>
+                                <input type="radio" name="sexe" value="feminin"> Feminin
+                            </label>
+                            <label>
+                                <input type="radio" name="sexe" value="indetermine"> prefere ne pas dire
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age :</label>
+                        <select id="age" name="age" class="form-control">
+                            <option value="3-8">3-8</option>
+                            <option value="9-12">9-12</option>
+                            <option value="13-18">13-18</option>
+                            <option value="19-25">19-25</option>
+                            <option value="26-35">26-35</option>
+                            <option value="36-45">36-45</option>
+                            <option value="46-55">46-55</option>
+                            <option value="56-65">56-65</option>
+                            <option value="66-75">66-75</option>
+                            <option value="76-85">76-85</option>
+                            <option value="86-95">86-95</option>
+                        </select>
+                    </div>
+                    <div class="form-sondage">
+                        <div class="survey-section">
+                            <h3>Sondage</h3>
+                            <p>Que pensez-vous de l'ensemble des thèmes disponibles à la bibliothèques :</p>
+                            <div class="checkbox-group">
+                                <label>
+                                    <input type="checkbox" name="survey" value="complet"> Complet
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="survey" value="ameliorer"> A Améliorer
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="survey" value="incomplet"> Incomplet
+                                </label>
+                            </div>
+                        </div>
+            
+                        <div class="form-group">
+                            <h3>Suggestions</h3>
+                            <textarea class="form-control textarea-suggestions" placeholder="Tapez ici toute remarque que vous jugez utile"></textarea>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button type="submit" class="btn btn-submit">Envoyer</button>
+                        <button type="reset" class="btn btn-reset">Effacer</button>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </body>
+</html>
