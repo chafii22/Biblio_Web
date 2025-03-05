@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="abonement.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BIBLIOTHEQUE ATLAS</title>
+    </head>
+    <body>
+        <nav>
+            <div>
+                <a href="../home.html"><img src="../../assets/house-solid.svg" alt="home" class="home icon" ></a>
+            </div>
+            <div>
+                <a href="../livre/livre.html" ><img src="../../assets/book-solid.svg" alt="books" class="books icon" ></a>
+            </div>
+            <div>
+                <a href="../horaire/horaire.html"><img src="../../assets/business-time-solid.svg" alt="time" class="time icon"></a>
+            </div>
+            <div>
+                <a href="../abonement/abonement.html"><img src="../../assets/money-check-dollar-solid.svg" alt="pricing" class="pricing icon"></a>
+            </div>
+            <div>
+                <a href="../inscription/inscription.html"><img src="../../assets/user-solid.svg" alt="inscription" class="inscription icon"></a>
+            </div>
+        </nav>
+        <div class="forum-post">
+            
+            <div class="post-content">
+                <h2 style="text-align: center;">Abonnement à la Bibliothèque Atlas</h2>
+                <div class="content-section">
+                    <div class="column">
+                        <h3>Dossiers d'abonnement :</h3>
+                        <ul>
+                            <li>2 photos</li>
+                            <input type="file" id="photo" name="photo" accept="image/*">
+                            <li>Photocopie de la CIN</li>
+                            <input type="file" id="cin" name="cin" accept="image/*">
+                            <li>Certificat de scolarité si disponible</li>
+                            <input type="file" id="certificat" name="certificat" accept="image/*">
+                            <li>Frais d'abonnement de 300 Dh l'année</li>
+                            <input type="file" id="frais" name="frais" placeholder="reçu" required>
+                        </ul>
+                        <form>
+                            <label for="name">Nom et Prénom :</label>
+                            <input type="text" id="name" name="name" placeholder="full name" required>
+                            <label for="email">Email :</label>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            <label for="phone">Téléphone :</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Tele.">
+                            <label for="address">Adresse :</label>
+                            <input type="text" id="address" name="address" placeholder="Adresse">
+                        </form>
+                        
+                    </div>
+                    <div class="column">
+                        <h3>Charte de la bibliothèque :</h3>
+                        <ul>
+                            <li>Restituer les livres empruntés dans un bon état</li>
+                            <li>Ne pas écrire sur les pages du livre</li>
+                            <li>Ne pas faire des ratures</li>
+                            <li>Ne pas déchirer des pages du livre</li>
+                            <li>Respecter les délais d'emprunt</li>
+                        </ul>
+                        <input type="checkbox" id="accept" name="accept" required>
+                        <label for="accept" style="color: darkgrey;">J'accepte les conditions d'abonnement</label>
+                    </div>
+                </div>
+            </div>
+            <div class="forum-footer">
+                <button class="reply-button">Envoyer</button>
+            </div>
+        </div>
+    </body>
+</html>
