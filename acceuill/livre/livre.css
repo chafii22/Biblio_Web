@@ -1,0 +1,79 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: rgb(254, 254, 254);
+    padding: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.book-themes-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 700px;
+    padding: 30px;
+    margin: 0 auto;
+    cursor: default;
+}
+
+.header {
+    text-align: center;
+    color: #4287f5;
+    border-bottom: 2px solid #4287f5;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.theme-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.theme-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.theme-item:hover {
+    background-color: #f0f0f0;
+}
+
+.theme-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.math-icon { background-color: #ff6b6b; }
+.computer-icon { background-color: #4ecdc4; }
+.chemistry-icon { background-color: #45b7d1; }
+.physics-icon { background-color: #fdcb6e; }
+.science-icon { background-color: #6c5ce7; }
+
+.theme-details h3 {
+    margin: 0 0 5px 0;
+    color: #333;
+}
+
+.theme-details p {
+    margin: 0;
+    color: #666;
+}
